@@ -8,7 +8,6 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_keys(groceries)
-  #code your solution here!
-  return groceries.keys
+def get_the_keys(hash)
+  hash.keys
 end
